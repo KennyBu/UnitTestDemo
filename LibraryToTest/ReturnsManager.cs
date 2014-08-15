@@ -43,8 +43,8 @@ namespace LibraryToTest
                                 if (customer != null)
                                 {
                                     var shippingCountry = customer.ShippingCountry.Substring(0, 2);
-                                    if (shippingCountry == "US")
-                                    //if (shippingCountry == CountryType.UnitedStates.ToString())
+                                    //if (shippingCountry == "US")
+                                    if (shippingCountry == CountryType.UnitedStates.ToString())
                                     {
                                         hasReturnPdf = true;
                                     }

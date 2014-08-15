@@ -2,7 +2,7 @@
 {
     public class CountryType
     {
-        public static readonly CountryType UnitedStates = new CountryType("USA");
+        public static readonly CountryType UnitedStates = new CountryType("US");
         public static readonly CountryType Canada = new CountryType("CA");
         public static readonly CountryType France = new CountryType("FR");
 
